@@ -1,4 +1,79 @@
-.wrapper {
-  max-width: 600px;
-  border: 1px solid red;
+body {
+  background: rgb(239, 231, 245);
+  margin-top: -10px;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 44px;
+}
+select {
+  background: white;
+  width: 100%;
+  border: 1px solid rgb(196, 139, 240);
+  border-radius: 7px;
+  box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
+  margin-bottom: 43px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+hr {
+  margin-bottom: 45px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 226, 226),
+    rgb(255, 255, 255),
+    rgba(224, 224, 224, 0.826)
+  );
+  width: 85%;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: rgb(146, 93, 187);
+  margin-top: 15px;
+}
+.container {
+  max-width: 545px;
+  margin: 0 auto;
+  margin-top: 55px;
+  padding: 30px 40px;
+  border: 1px solid rgb(234, 205, 244);
+  border-radius: 20px;
+  box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/028/original/1.png?1681070822");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.city-list {
+  font-size: 22px;
+  color: black;
+  padding-left: 4px;
+}
+.default-cities {
+  background: white;
+  width: 94.5%;
+  border: 1px solid rgb(146, 93, 187);
+  border-radius: 20px;
+  box-shadow: rgba(146, 93, 187, 0.705) 5px 5px 5px 0px;
+  margin: 25px 0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  margin-top: -10px;
+  opacity: 0.7;
+}
+.time {
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
 }

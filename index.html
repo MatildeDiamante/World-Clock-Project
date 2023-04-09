@@ -5,41 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock Project</title>
   </head>
   <body>
     <div class="container">
-      <div class="wrapper">
-        <h1>World Clock</h1>
+      <h1>World Clock</h1>
 
-        <select name="" id="cities">
-          <option value="default">Select a city</option>
-          <option value="tokyo">Tokyo</option>
-          <option value="new-york">New York</option>
-          <option value="florence">Florence</option>
-          <option value="london">London</option>
-        </select>
+      <select name="" id="cities">
+        <option value="default">Select a city</option>
+        <option value="seoul">Seoul</option>
+        <option value="new-york">New York</option>
+        <option value="sydney">Sydney</option>
+        <option value="london">London</option>
+      </select>
+      <hr />
 
-        <div class="default-cities">
-          <h2>Los Angeles</h2>
+      <div class="default-cities">
+        <div>
+          <h2>Tokyo</h2>
           <div class="date">April 9th 2023</div>
-          <div class="time">1:48:15 AM</div>
         </div>
-        <div class="default-cities">
-          <h2>Sydney</h2>
+        <div>
+          <div class="time">1:48:15 <small>AM</small></div>
+        </div>
+      </div>
+      <div class="default-cities">
+        <div>
+          <h2>Florence</h2>
           <div class="date">April 9th 2023</div>
-          <div class="time">1:48:15 AM</div>
+        </div>
+        <div>
+          <div class="time">1:48:15 <small>AM</small></div>
+        </div>
+      </div>
+      <div class="default-cities">
+        <div>
+          <h2>Auckland</h2>
+          <div class="date">April 9th 2023</div>
+        </div>
+        <div>
+          <div class="time">1:48:15 <small>AM</small></div>
         </div>
       </div>
     </div>
-
     <footer>
       <a
         href="https://github.com/MatildeDiamante/World-Clock-Project"
         target="_blank"
         >Open-source project</a
       >
-      coded by Matilde Moretti with HTML, CSS and JavaScript
+      coded by <strong>Matilde Moretti</strong> with HTML, CSS and JavaScript
     </footer>
 
     <script src="src/index.js"></script>
