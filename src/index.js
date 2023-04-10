@@ -35,13 +35,13 @@ function updateTime() {
     );
   }
 }
-
 function changeCity(event) {
-  let cityTimeZone = event.target.value;
-  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
-  let cityTime = moment().tz(cityTimeZone);
-  let citiesElement = document.querySelector("#cities-list");
-  citiesElement.innerHTML = `<div class="default-cities">
+  function updateChangeTime() {
+    let cityTimeZone = event.target.value;
+    let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+    let cityTime = moment().tz(cityTimeZone);
+    let citiesElement = document.querySelector("#cities-list");
+    citiesElement.innerHTML = `<div class="default-cities">
           <div>
             <h2>${cityName}</h2>
             <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
@@ -52,6 +52,10 @@ function changeCity(event) {
             )}<small>${cityTime.format(" A")}</small></div>
           </div>
         </div>`;
+  }
+
+  updateChangeTime();
+  setInterval(updateChangeTime, 1000);
 }
 
 updateTime();
