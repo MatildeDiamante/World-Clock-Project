@@ -38,6 +38,14 @@ footer {
   color: rgb(146, 93, 187);
   margin-top: 15px;
 }
+a {
+  color: rgb(146, 93, 187);
+}
+a:hover {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  color: rgb(146, 93, 187);
+}
 .container {
   max-width: 545px;
   margin: 0 auto;
