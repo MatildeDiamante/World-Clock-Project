@@ -58,6 +58,22 @@ function changeCity(event) {
   setInterval(updateChangeTime, 1000);
 }
 
+function updateCurrentTime() {
+  let currentPosition = moment.tz.guess();
+  let cityPositionName = document.querySelector("#name");
+  let cityPositionDate = document.querySelector("#date");
+  let cityPositionTime = document.querySelector("#time");
+  cityPositionName.innerHTML = currentPosition.replace("_", " ").split("/")[1];
+  cityPositionDate.innerHTML = `${moment()
+    .tz(currentPosition)
+    .format("MMMM Do YYYY")};`;
+  cityPositionTime.innerHTML = `${moment()
+    .tz(currentPosition)
+    .format("h:mm:ss [<small>]A[</small>]")}`;
+}
+updateCurrentTime();
+setInterval(updateCurrentTime, 1000);
+
 updateTime();
 setInterval(updateTime, 1000);
 
