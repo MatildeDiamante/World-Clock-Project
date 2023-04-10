@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,16 +27,16 @@
         <option value="london">London</option>
       </select>
       <hr />
-      <div class="default-cities">
+      <div class="default-cities" id="tokyo">
         <div>
           <h2>Tokyo</h2>
-          <div class="date">April 9th 2023</div>
+          <div class="date"></div>
         </div>
         <div>
-          <div class="time">1:48:15 <small>AM</small></div>
+          <div class="time"></div>
         </div>
       </div>
-      <div class="default-cities">
+      <div class="default-cities" id="florence">
         <div>
           <h2>Florence</h2>
           <div class="date">April 9th 2023</div>
@@ -43,7 +45,7 @@
           <div class="time">1:48:15 <small>AM</small></div>
         </div>
       </div>
-      <div class="default-cities">
+      <div class="default-cities" id="auckland">
         <div>
           <h2>Auckland</h2>
           <div class="date">April 9th 2023</div>
