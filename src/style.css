@@ -2,11 +2,11 @@ body {
   background: rgb(239, 231, 245);
   margin-top: -10px;
   font-family: "Roboto", sans-serif;
+  color: rgb(24, 3, 51);
 }
 h1 {
   text-align: center;
   font-size: 44px;
-  color: rgb(24, 3, 51);
 }
 select {
   background: white;
@@ -15,9 +15,10 @@ select {
   border-radius: 7px;
   box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
   margin-bottom: 43px;
-  padding: 10px;
+  padding: 8px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  font-weight: bolder;
 }
 hr {
   margin-bottom: 45px;
@@ -47,7 +48,7 @@ footer {
   box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/076/028/original/1.png?1681070822");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 120%;
 }
 .default-cities {
   background: white;
@@ -72,4 +73,18 @@ footer {
 .time small {
   font-size: 20px;
   vertical-align: middle;
+}
+.bottom-line {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+.current-location {
+  margin-left: 10px;
+  padding: 5px 0 5px 9px;
+  font-size: 18px;
+  background: white;
+  border: 1px solid rgb(146, 93, 187);
+  border-radius: 15px;
+  box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
+  max-width: 33.5%;
 }
