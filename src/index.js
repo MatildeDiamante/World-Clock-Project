@@ -51,7 +51,8 @@ function changeCity(event) {
               "h:mm:ss"
             )}<small>${cityTime.format(" A")}</small></div>
           </div>
-        </div>`;
+        </div>
+        <a href= "/">Back to all cities</a>`;
   }
 
   updateChangeTime();
