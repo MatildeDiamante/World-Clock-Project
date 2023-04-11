@@ -82,7 +82,7 @@ a:hover {
   font-size: 20px;
   vertical-align: middle;
 }
-a .all-cities-link {
+.all-cities-link {
   display: block;
   margin-top: 45px;
   padding: 5px 9px;
