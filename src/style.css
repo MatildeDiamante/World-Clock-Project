@@ -93,11 +93,12 @@ a:hover {
   background: white;
   border: 1px solid rgb(146, 93, 187);
   border-radius: 15px;
-  box-shadow: rgba(146, 93, 187, 0.705) 0px 7px 29px 0px;
+  box-shadow: rgba(146, 93, 187, 0.705) 5px 5px 5px 0px;
   max-width: 24%;
 }
 .all-cities-link:hover {
-transition: all 200ms ease-in-out;
+  color: rgb(146, 93, 187);
+  transition: all 200ms ease-in-out;
 }
 .bottom-line {
   margin-top: 50px;
