@@ -84,6 +84,7 @@ a:hover {
 }
 .all-cities-link {
   display: block;
+  margin: 0 auto;
   margin-top: 45px;
   padding: 5px 9px;
   text-align: center;
